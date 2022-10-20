@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=roboto');
+
+header {
+    background-color: rgb(24, 162, 207);
+    margin: 0px;
+}
+
 body {
-    background-color: red;
+    background-color: lightblue;
 }
 
 .navbar {
-    text-decoration: underline;
+    background-color:rgb(217, 222, 235);
+    font-family: 'Roboto', sans-serif;
+    font: size 100px;
 }
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(116, 113, 113);
+    background-color: aquamarine;
+}
+
